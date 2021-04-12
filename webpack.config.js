@@ -156,6 +156,15 @@ var options = {
         },
       ],
     }),
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: 'updates.json',
+          to: path.join(__dirname, 'build'),
+          force: true,
+        },
+      ],
+    }),
   ],
   infrastructureLogging: {
     level: 'info',
