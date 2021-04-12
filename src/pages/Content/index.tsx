@@ -21,7 +21,7 @@ function setOpenAmazonButton() {
   }
 }
 
-window.addEventListener('DOMContentLoaded', (event) => {
+window.addEventListener('load', (event) => {
   if (isDetailPage(location.pathname)) {
     setOpenAmazonButton();
   } else {
