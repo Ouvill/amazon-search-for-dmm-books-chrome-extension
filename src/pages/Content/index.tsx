@@ -21,13 +21,9 @@ function setOpenAmazonButton() {
   }
 }
 
-function sleep(ms: number) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
-
-if (isDetailPage(location.pathname)) {
-  sleep(500).then(() => {
+window.addEventListener('load', (event) => {
+  if (isDetailPage(location.pathname)) {
     setOpenAmazonButton();
-  });
-} else {
-}
+  } else {
+  }
+});
