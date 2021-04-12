@@ -1,0 +1,14 @@
+.m-boxDcFlatBtn--searchAmazon {
+  width: 216px;
+  height: 34px;
+  border: 1px solid #ddd;
+
+  background-color: #ffa724;
+  box-shadow: 0 2px #d5720c;
+  line-height: 34px;
+}
+
+.m-boxDcFlatBtn--searchAmazon__text {
+  color: #fff !important;
+  font-size: 13px;
+}
