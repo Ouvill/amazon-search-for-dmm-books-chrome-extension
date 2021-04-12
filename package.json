@@ -1,7 +1,7 @@
 {
-  "name": "chrome-extension-boilerplate-react",
+  "name": "search-amazon-for-dmm-books",
   "version": "4.0.1",
-  "description": "A chrome extension boilerplate built with React 17 and Webpack 5",
+  "description": "DMM BOOKSの商品ページからAmazonの商品検索ページに飛ぶリンクを追加します",
   "license": "MIT",
   "repository": {
     "type": "git",
