@@ -28,6 +28,13 @@ chromeのアドレスバーに`chrome://extensions/`を入力してください�
 
 現在審査中です。
 
+## Build
+
+```
+npm ci
+npm run build
+```
+
 ## Contribution
 
 Pull Request受付中です。
