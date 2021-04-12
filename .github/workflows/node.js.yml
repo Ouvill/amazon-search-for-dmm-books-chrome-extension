@@ -8,21 +8,13 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [ 14.x ]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
-    steps:
+ build:
+  runs-on: ubuntu-latest
+  steps:
     - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v2
+    - uses: actions/setup-node@v2
       with:
-        node-version: ${{ matrix.node-version }}
+        node-version: 12
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
@@ -31,7 +23,7 @@ jobs:
     
     - uses: actions/download-artifact@v2
       with: 
-        name: extension.zip
+        name: extension
         path: build/release.zip
     - name: Display structure of downloaded files
       run: ls -R
