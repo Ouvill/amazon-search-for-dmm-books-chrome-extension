@@ -1,0 +1,16 @@
+{
+  "addons": {
+    "aae096e0-b1a3-403e-8b28-dfa5053e7810": {
+      "updates": [
+        {
+          "verson": "1.0.0",
+          "update_link": "https://github.com/Ouvill/amazon-search-for-dmm-books-chrome-extension/releases/download/v1.0.0/dmm_booksamazon-1.0.0-fx.xpi"
+        },
+        {
+          "verson": "1.0.1",
+          "update_link": "https://github.com/Ouvill/amazon-search-for-dmm-books-chrome-extension/releases/download/v1.0.1/dmm_booksamazon-1.0.1-fx.xpi"
+        }
+      ]
+    }
+  }
+}
