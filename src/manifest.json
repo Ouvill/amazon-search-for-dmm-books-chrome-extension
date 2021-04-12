@@ -1,7 +1,6 @@
 {
   "manifest_version": 3,
   "name": "DMM BOOKSからAmazonの商品を検索する",
-  "options_page": "options.html",
   "background": { "service_worker": "background.bundle.js" },
   "icons": {
     "128": "icon-128.png"
