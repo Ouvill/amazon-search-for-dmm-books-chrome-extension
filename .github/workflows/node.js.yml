@@ -19,10 +19,13 @@ jobs:
     - run: npm run build --if-present
     - run: npm test
     - run: cd build && zip release *.*
+    - uses: actions/upload-artifact@v2
+      with:
+        name: extension
+        path: build/release.zip
     - uses: actions/download-artifact@v2
       with: 
         name: extension
-        path: build/release.zip
     - name: Display structure of downloaded files
       run: ls -R
     
