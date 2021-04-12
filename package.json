@@ -1,6 +1,6 @@
 {
   "name": "search-amazon-for-dmm-books",
-  "version": "4.0.1",
+  "version": "1.0.0",
   "description": "DMM BOOKSの商品ページからAmazonの商品検索ページに飛ぶリンクを追加します",
   "license": "MIT",
   "repository": {
