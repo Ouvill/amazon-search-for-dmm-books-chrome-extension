@@ -8,6 +8,12 @@ DMMの商品ページを開くと、Amazonで商品を検索するボタンが�
 
 ## インストール方法
 
+### Chromeストアよりダウンロード
+
+[Chrome Web Store](https://chrome.google.com/webstore/detail/dmm-books%E3%81%8B%E3%82%89amazon%E3%81%AE%E5%95%86%E5%93%81%E3%82%92%E6%A4%9C%E7%B4%A2%E3%81%99%E3%82%8B/kjbojocegbacooocggbocjemcahdeehm?hl=ja&authuser=0)よりインストールできます。
+
+[![](doc/images/chrome-web-store.png)](https://chrome.google.com/webstore/detail/dmm-books%E3%81%8B%E3%82%89amazon%E3%81%AE%E5%95%86%E5%93%81%E3%82%92%E6%A4%9C%E7%B4%A2%E3%81%99%E3%82%8B/kjbojocegbacooocggbocjemcahdeehm?hl=ja&authuser=0)
+
 ### zipをダウンロードしてインストール
 
 リリースページより"amazon-searh-for-dmm-books.zip"をダウンロードしてください。
@@ -24,9 +30,6 @@ chromeのアドレスバーに`chrome://extensions/`を入力してください�
 
 以上で拡張機能が有効になります。
 
-### Chromeストアよりダウンロード
-
-現在審査中です。
 
 ## Build
 
