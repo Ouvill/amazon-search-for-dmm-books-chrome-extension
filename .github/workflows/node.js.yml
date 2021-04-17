@@ -19,7 +19,6 @@ jobs:
         node-version: 12
     - run: yarn install --frozen-lockfile
     - run: yarn build --if-present
-    - run: yarn test
     - uses: actions/upload-artifact@v2
       with:
         name: extension
